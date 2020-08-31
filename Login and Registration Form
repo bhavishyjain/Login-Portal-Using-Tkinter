@@ -1,8 +1,11 @@
 #Guys, Come and Contribute your code here
 #PYTHON PROJECTS TEAM
 
-import os
-import tkinter as ttk
-from ttk import *
+from tkinter import *
+window = Tk()
+window.title("Welcome to Python Projects")
+window.geometry('500x500')
+Button(root, text='Submit')
+window.mainloop()
 
 #AAGE TO LIKHO
