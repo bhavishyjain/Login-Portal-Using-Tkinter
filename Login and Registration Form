@@ -5,7 +5,7 @@ from tkinter import *
 root = Tk()
 root.title("Welcome to Python Projects")
 root.geometry('500x500')
-Button(root, text='Submit')
-window.mainloop()
+Button(root, text='Submit' , width=20,bg="black",fg='white').place(x=180,y=380)
+root.mainloop()
 
 #AAGE TO LIKHO
