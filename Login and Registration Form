@@ -17,11 +17,11 @@ Radiobutton(root,text="Male",padx= 5, variable= var, value=1).place(x=235,y=180)
 Radiobutton(root,text="Female",padx= 20, variable= var, value=2).place(x=290,y=180)
 text_4=Label(root,text="Country",width=20,font=("bold",10))
 text_4.place(x=70,y=230)
-list_of_country=["Andhra Pradesh","Arunachal Pradesh ","Assam","Bihar","Chhattisgarh","Goa","Gujarat","Haryana","Himachal Pradesh","Jammu and Kashmir","Jharkhand","Karnataka","Kerala","Madhya Pradesh","Maharashtra","Manipur","Meghalaya","Mizoram","Nagaland","Odisha","Punjab","Rajasthan","Sikkim","Tamil Nadu","Telangana","Tripura","Uttar Pradesh","Uttarakhand","West Bengal","Andaman and Nicobar Islands","Chandigarh","Dadra and Nagar Haveli","Daman and Diu","Lakshadweep","National Capital Territory of Delhi","Puducherry"]
+list_of_states=["Andhra Pradesh","Arunachal Pradesh ","Assam","Bihar","Chhattisgarh","Goa","Gujarat","Haryana","Himachal Pradesh","Jammu and Kashmir","Jharkhand","Karnataka","Kerala","Madhya Pradesh","Maharashtra","Manipur","Meghalaya","Mizoram","Nagaland","Odisha","Punjab","Rajasthan","Sikkim","Tamil Nadu","Telangana","Tripura","Uttar Pradesh","Uttarakhand","West Bengal","Andaman and Nicobar Islands","Chandigarh","Dadra and Nagar Haveli","Daman and Diu","Lakshadweep","National Capital Territory of Delhi","Puducherry"]
 c=StringVar()
 droplist=OptionMenu(root,c, *list_of_country)
 droplist.config(width=15)
-c.set('Select your Country')
+c.set('Select your State')
 droplist.place(x=240,y=230)
 
 Button(root, text='Submit' , width=20,bg="black",fg='white').place(x=180,y=380)
