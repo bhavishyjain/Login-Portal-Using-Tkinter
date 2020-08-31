@@ -1,4 +1,3 @@
-#Guys, Come and Contribute your code here
 #PYTHON PROJECTS TEAM
 
 from tkinter import *
@@ -19,5 +18,3 @@ Radiobutton(root,text="Female",padx= 20, variable= var, value=2).place(x=290,y=1
 
 Button(root, text='Submit' , width=20,bg="black",fg='white').place(x=180,y=380)
 root.mainloop()
-
-#AAGE TO LIKHO
