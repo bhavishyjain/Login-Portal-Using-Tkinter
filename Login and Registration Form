@@ -22,7 +22,7 @@ c=StringVar()
 droplist=OptionMenu(root,c, *list_of_country)
 droplist.config(width=15)
 c.set('Select your Country')
-droplist.place(x=240,y=280)
+droplist.place(x=240,y=230)
 
 Button(root, text='Submit' , width=20,bg="black",fg='white').place(x=180,y=380)
 root.mainloop()
