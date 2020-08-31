@@ -5,7 +5,7 @@ from tkinter import *
 root = Tk()
 root.title("Welcome to Python Projects")
 root.geometry('500x500')
-label_1 = Label(root,text="Join Python Projects Now", width=20, font=("bold",20))
+text_1 = Label(root,text="Join Python Projects Now", width=20, font=("bold",20))
 Button(root, text='Submit' , width=20,bg="black",fg='white').place(x=180,y=380)
 root.mainloop()
 
