@@ -2,9 +2,9 @@
 #PYTHON PROJECTS TEAM
 
 from tkinter import *
-window = Tk()
-window.title("Welcome to Python Projects")
-window.geometry('500x500')
+root = Tk()
+root.title("Welcome to Python Projects")
+root.geometry('500x500')
 Button(root, text='Submit')
 window.mainloop()
 
