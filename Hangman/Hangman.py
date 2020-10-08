@@ -48,7 +48,7 @@ def draw():
 
     # draw title
     text = TITLE_FONT.render("DEVELOPER HANGMAN", 1, BLACK)
-    win.blit(text, (WIDTH/2 - text.get_width()/2, 20))
+    win.blit(text, (WIDTH/2 - int(text.get_width()/2), 20))
 
     # draw word
     display_word = ""
